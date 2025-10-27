@@ -1,0 +1,30 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color:#000000;
+}
+
+.heading{
+    font-size: 50px;
+    font-style: italic;
+    color:#800000;
+}
+
+.homelinks{
+    font-size: 16px;
+    background: fixed;
+    color:#0000ff;
+}
+
+.h2{
+    color: #00008b;
+}
+
+.address{
+    color: #800000;
+}
+
+.rights{
+    color: #800000;
+}

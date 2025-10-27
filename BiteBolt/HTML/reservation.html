@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="BiteBolt">
+        <meta name="description" content="This is the reservation page of BiteBolt resturant">
+        <title>Reservation - BiteBolt</title>
+        <link rel="icon" href="../images/fast-food.png" type="image/png">
+        <link rel="stylesheet" href="/CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="../images/burgerandchips.jpg" alt="a picture of burger and chips" width="400" height="300" loading="lazy">
+                <figcaption>A Burger and chips with ketchup</figcaption>
+            </figure>
+            <h1 class="heading"><em>Make your Reservation</em></h1>
+        </header>
+        <main>
+            <form action="https://www.bitebolt.com" method="get">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="James">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" required placeholder="Smith">
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                    <label for="tel">Phone Number:</label>   
+                    <input type="tel" id="tel" name="tel" required>
+                    <label for="date">Reservation Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <label for="time">Reservation Time:</label>
+                    <input type="time" id="time" name="time" required>
+                    <label for="people">Number of People:</label>
+                    <input type="number" id="people" name="people" required min="1" max="20" placeholder="1">
+                    <button type="submit">Submit Reservation</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <figure>
+                <img src="../images/burgertamato.jpg" alt="a picture of burger" width="400" height="300" loading="lazy">
+                <figcaption>A delicious Burger</figcaption>
+            </figure>
+            <p>&copy; 2024 BiteBolt. All rights reserved.</p>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
